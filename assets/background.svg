@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0f0e0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad1)" />
+  
+  <!-- Plant pattern elements -->
+  <g opacity="0.1" fill="#2e7d32">
+    <!-- Leaf shapes scattered around -->
+    <path d="M50,50 Q70,30 90,50 T130,50 Q110,70 130,90 T90,90 Q70,70 50,50 Z" />
+    <path d="M200,150 Q220,130 240,150 T280,150 Q260,170 280,190 T240,190 Q220,170 200,150 Z" />
+    <path d="M400,100 Q420,80 440,100 T480,100 Q460,120 480,140 T440,140 Q420,120 400,100 Z" />
+    <path d="M600,200 Q620,180 640,200 T680,200 Q660,220 680,240 T640,240 Q620,220 600,200 Z" />
+    <path d="M100,350 Q120,330 140,350 T180,350 Q160,370 180,390 T140,390 Q120,370 100,350 Z" />
+    <path d="M300,400 Q320,380 340,400 T380,400 Q360,420 380,440 T340,440 Q320,420 300,400 Z" />
+    <path d="M500,450 Q520,430 540,450 T580,450 Q560,470 580,490 T540,490 Q520,470 500,450 Z" />
+    <path d="M700,350 Q720,330 740,350 T780,350 Q760,370 780,390 T740,390 Q720,370 700,350 Z" />
+    
+    <!-- Simple stem patterns -->
+    <line x1="250" y1="300" x2="250" y2="350" stroke="#2e7d32" stroke-width="2" />
+    <line x1="350" y1="250" x2="350" y2="300" stroke="#2e7d32" stroke-width="2" />
+    <line x1="450" y1="200" x2="450" y2="250" stroke="#2e7d32" stroke-width="2" />
+    <line x1="550" y1="300" x2="550" y2="350" stroke="#2e7d32" stroke-width="2" />
+    
+    <!-- Branch patterns -->
+    <path d="M300,320 L320,300 M300,330 L330,310 M300,340 L325,320" stroke="#2e7d32" stroke-width="1.5" fill="none" />
+    <path d="M400,270 L420,250 M400,280 L430,260 M400,290 L425,270" stroke="#2e7d32" stroke-width="1.5" fill="none" />
+    <path d="M500,220 L520,200 M500,230 L530,210 M500,240 L525,220" stroke="#2e7d32" stroke-width="1.5" fill="none" />
+    <path d="M600,320 L620,300 M600,330 L630,310 M600,340 L625,320" stroke="#2e7d32" stroke-width="1.5" fill="none" />
+  </g>
+</svg>
