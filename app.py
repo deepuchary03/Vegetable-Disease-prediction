@@ -38,9 +38,7 @@ with st.spinner("Loading model..."):
         model = RandomForestClassifier(n_estimators=10, random_state=42)
         scaler = StandardScaler()
         model_data = (model, scaler)
-        # We'll use the class names defined in model.py
 
-# Sidebar with information
 with st.sidebar:
     st.header("About")
     st.info(
